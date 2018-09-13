@@ -2396,7 +2396,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #f6755e;
+		background-color: #ec2631;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2476,8 +2476,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #dee1e3;
-			color: #727a82 !important;
+			box-shadow: inset 0 0 0 1px #646464;
+			color: #ec2631 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2630,7 +2630,7 @@
 		}
 
 		.wrapper.style1 {
-			background: #f6755e;
+			background: #ec2631;
 			color: #fcdcd6;
 		}
 
@@ -2742,6 +2742,7 @@
 
 					#header nav a[href="#menu"]:before {
 						margin: 0 0.5em 0 0;
+						color: #534f68;
 					}
 
 	@media screen and (max-width: 980px) {
@@ -2794,7 +2795,7 @@
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #25a2c3;
+		background: #534f68;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -2877,6 +2878,7 @@
 
 			#menu .close:before {
 				font-size: 1.25em;
+				color: #9392b2;
 			}
 
 			#menu .close:hover {
@@ -2937,7 +2939,7 @@
 
 		#banner h1 {
 			font-size: 3em;
-			color: #25a2c3;
+			color: white;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -2945,6 +2947,7 @@
 
 		#banner p {
 			font-size: 1.25em;
+			color: white;
 			margin-bottom: 1.75em;
 		}
 
@@ -3136,7 +3139,7 @@
 
 	#footer {
 		padding: 6em 0 4em 0;
-		background: #25a2c3;
+		background: #ec2631;
 		text-align: center;
 		color: #c8e7f0;
 	}
