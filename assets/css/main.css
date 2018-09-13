@@ -25,6 +25,7 @@
 
 	body {
 		line-height: 1;
+
 	}
 
 	ol, ul {
@@ -47,6 +48,7 @@
 
 	body {
 		-webkit-text-size-adjust: none;
+
 	}
 
 /* Box Model */
@@ -1563,12 +1565,13 @@
 
 		html, body {
 			min-width: 320px;
+
 		}
 
 	}
 
 	body {
-		background: #fff;
+		background: #161325;;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2078,6 +2081,7 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+			color: #fff;
 		}
 
 		.icon > .label {
@@ -2396,7 +2400,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #f6755e;
+		background-color: #bb1f28;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2476,8 +2480,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px #dee1e3;
-			color: #727a82 !important;
+			box-shadow: inset 0 0 0 1px #646464;
+			color: #bb1f28 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2626,12 +2630,13 @@
 	}
 
 		.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
-			color: #25a2c3;
+			color: #9493b3;
 		}
 
 		.wrapper.style1 {
-			background: #f6755e;
+			background: #bb1f28;
 			color: #fcdcd6;
+			background: url(../../images/banner.jpg)
 		}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
@@ -2669,7 +2674,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background: #fff;
+		background: #161325;
 		cursor: default;
 		height: 6em;
 		left: 0;
@@ -2742,12 +2747,14 @@
 
 					#header nav a[href="#menu"]:before {
 						margin: 0 0.5em 0 0;
+						color: #9493b3;
 					}
 
 	@media screen and (max-width: 980px) {
 
 		body {
 			padding-top: 44px;
+			background-color: #161325;
 		}
 
 		#header {
@@ -2794,7 +2801,7 @@
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #25a2c3;
+		background: #9493b3;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -2877,6 +2884,7 @@
 
 			#menu .close:before {
 				font-size: 1.25em;
+				color: #9392b2;
 			}
 
 			#menu .close:hover {
@@ -2937,7 +2945,7 @@
 
 		#banner h1 {
 			font-size: 3em;
-			color: #25a2c3;
+			color: white;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -2945,6 +2953,7 @@
 
 		#banner p {
 			font-size: 1.25em;
+			color: white;
 			margin-bottom: 1.75em;
 		}
 
@@ -3136,7 +3145,7 @@
 
 	#footer {
 		padding: 6em 0 4em 0;
-		background: #25a2c3;
+		background: url(../../images/banner.jpg);
 		text-align: center;
 		color: #c8e7f0;
 	}
