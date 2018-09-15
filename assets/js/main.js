@@ -63,3 +63,7 @@
 	});
 
 })(jQuery);
+
+$(window).load(function() {
+	$(".preloader loading").fadeOut("slow");;
+});
