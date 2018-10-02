@@ -2,10 +2,11 @@
 
 <html>
 	<head>
-		<title>Schedules</title>
+		<title>About Us</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	</head>
 	<body class="subpage">
 
@@ -13,10 +14,10 @@
 			<header id="header">
 				<nav class="left">
 					<a href="#menu"><span>Menu</span></a>
-				</nav>
-				<a href="index.html" class="logo">intensify</a>
+				</nav>	<img src="images/Logo.png" alt="">
+					<!--<a href="index.html" class="logo">BNOC League</a> -->
 				<nav class="right">
-					<a href="#" class="button alt">Log in</a>
+					<a href="#" class="button alt">Register</a>
 				</nav>
 			</header>
 
@@ -24,8 +25,9 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="generic.html">Generic</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="schedule.html">Schedules</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="faq.html">FAQs</a></li>
 				</ul>
 				<ul class="actions vertical">
 					<li><a href="#" class="button fit">Login</a></li>
@@ -37,18 +39,46 @@
 				<div class="inner">
 				</div>
 			</section>
+			    <style>
+			       /* Set the size of the div element that contains the map */
+			      #map {
+			        height: 400px;  /* The height is 400 pixels */
+			        width: 100%;  /* The width is the width of the web page */
+			       }
+			    </style>
 
+			    <!--The div element for the map -->
+			    <div id="map"></div>
+			    <script>
+			// Initialize and add the map
+			function initMap() {
+			  // The location of Uluru
+			  var uluru = {lat: -25.344, lng: 131.036};
+			  // The map, centered at Uluru
+			  var map = new google.maps.Map(
+			      document.getElementById('map'), {zoom: 4, center: uluru});
+			  // The marker, positioned at Uluru
+			  var marker = new google.maps.Marker({position: uluru, map: map});
+			}
+			    </script>
+			    <!--Load the API from the specified URL
+			    * The async attribute allows the browser to render the page while the API loads
+			    * The key parameter will contain your own API key (which is not needed for this tutorial)
+			    * The callback parameter executes the initMap() function
+			    -->
+			    <script async defer
+			    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwXPJ7zkkhIXJr9dK2G_G_IWQAfRoohQM&callback=initMap">
+			    </script>
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
 					<h2>Get In Touch</h2>
 					<ul class="actions">
-						<li><span class="icon fa-phone"></span> <a href="#">############</a></li>
-						<li><span class="icon fa-envelope"></span> <a href="#">########</a></li>
-						<li><span class="icon fa-map-marker"></span> ###########</li>
+						<li><span class="icon fa-phone"></span> <a href="#">+91-9790614407</a></li>
+						<li><span class="icon fa-envelope"></span> <a href="#">bnoc@numlock.in</a></li>
+						<li><span class="icon fa-map-marker"></span> Mumbai, India</li>
 					</ul>
 				</div>
-
 			</footer>
 
 		<!-- Scripts -->
